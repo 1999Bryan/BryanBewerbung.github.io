@@ -43,5 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
     passcodeprotect(); // Führt die Passwortabfrage aus
 });
 
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+const navLinks = document.querySelectorAll('.nav-links a');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        const navLinksContainer = document.querySelector('.nav-links');
+        navLinksContainer.classList.remove('active');
+    });
+});
+
 
 

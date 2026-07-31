@@ -1,4 +1,4 @@
-function hashPassword(password) {
+/* function hashPassword(password) {
     return btoa(password);
 }
 
@@ -28,20 +28,20 @@ function logout() {
 
 document.addEventListener("DOMContentLoaded", function () {
     var password = "BryanLemcke";
-    var body = document.body;  // Direkt auf das Body-Tag zugreifen
+    var body = document.body;
 
     function passcodeprotect() {
         var passcode = prompt("Geben Sie das Passwort ein:");
         if (passcode === password) {
-            body.style.display = "flex"; // Macht den Body sichtbar mit flex
+            body.classList.remove("hidden");
         } else {
             alert("Falsches Passwort!");
-            passcodeprotect(); // Erneute Abfrage
+            passcodeprotect();
         }
     }
 
-    passcodeprotect(); // Führt die Passwortabfrage aus
-});
+    passcodeprotect();
+}); */
 
 function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');

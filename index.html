@@ -14,17 +14,18 @@
 
 </head>
 
-<body style="display: none;" id="body">
+<body>
     <!-- Navigation-->
 
    <header class="header">
-        <p class="logo">Bryan Lemcke</p>
+        <a href="#intro" class="logo">Bryan Lemcke</a>
         <nav class="navbar">
             <ul class="nav-links">
                 <li><a href="#me">Über mich</a></li>
                 <li><a href="#cv">Lebenslauf</a></li>
                 <li><a href="#qualification">Qualifikationen</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
             <div class="burger" onclick="toggleMenu()">
                 <div class="line1"></div>
@@ -34,156 +35,420 @@
         </nav>
     </header>
 
-    <!-- Intro-->
-    <section id="intro">
-        <div class="intro">
-            <div class="introbox">
-                <img src="images/Profilbild.jpg" alt="Bryan Lemcke">
-                <h1>
-                    “Hallo, ich bin Bryan aus Lübeck und lebe mich gerne kreativ aus, sowohl analog als auch digital”
-                </h1>
+       <!-- Hero -->
+    <section id="intro" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-kicker">Bryan Lemcke | M.Sc. Medieninformatik</p>
+
+                <h1>Digitalisierung für den Menschen.</h1>
+
+                <p class="hero-description">
+                    Im Studium habe ich gelernt, wie Gestaltung, Technik und Nutzerperspektive zusammenspielen.
+                    Besonders interessiert mich dabei, wie digitale Medien Transparenz schaffen, Bildung zugänglicher machen
+                    und komplexe Zusammenhänge verständlich vermitteln können.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cv" class="hero-button primary">Lebenslauf ansehen</a>
+                    <a href="#contact" class="hero-button secondary">Kontakt aufnehmen</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-card">
+                <img src="images/Profilbild.jpg" alt="Portrait von Bryan Lemcke" class="hero-image">
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Über mich-->
     <section id="me" class="section me-section">
-        <div class="me-box">
-            <div class="me-item">
-                <h2>Über mich</h2>
-                <p>Ich bin Student der Medieninformatik mit einer Leidenschaft für Designentscheidungen.  
-                   Digitale Medien faszinieren mich, besonders ihre Fähigkeit, den Alltag zu verbessern.  
-                   Mein Gespür für Layouts und Nutzerführung habe ich im Studium geschärft und setze es gezielt in Projekten ein.  
-                   Dank verschiedener Tätigkeiten bringe ich Team- und Kundenkommunikationserfahrung mit.  
-                   Aktuell suche ich eine studentische Position als Werkstudent, um meine Fähigkeiten weiterzuentwickeln.</p>
-                <a href="pdfs/Motivationsschreiben_BryanLemcke.pdf" target="_blank" class="button">Motivationsschreiben ansehen</a>
+        <div class="section-intro">
+            <p class="section-kicker">Kurz vorgestellt</p>
+            <h2>Über mich</h2>
+            <p>
+                Ein kompakter Überblick darüber, was mich antreibt, welche Themen mich interessieren
+                und in welche Richtung ich mich beruflich entwickeln möchte.
+            </p>
+        </div>
+
+        <div class="qa-grid">
+            <article class="qa-card">
+                <h3>Wer bin ich?</h3>
+                <p>
+                    Ich bin Bryan Lemcke, 27 Jahre alt, M.Sc. Medieninformatik, und würde mich als kreativen,
+                    ehrgeizigen und aufrichtigen Menschen beschreiben. Besonders interessiert mich die ganzheitliche
+                    Gestaltung digitaler Medien, also von der Idee über die Nutzerführung bis hin zur realen Nutzung. 
+                    Ich bin überzeugt davon, dass verantwortungsvoll entwickelte Technologie Menschen im Alltag entlasten, 
+                    informieren und generell unterstützen kann.
+                </p>
+            </article>
+
+            <article class="qa-card">
+                <h3>Was treibt mich an?</h3>
+                <p>
+                    Mich fasziniert das Potenzial von Technologie, Menschen bei alltäglichen und komplexen Problemen
+                    sinnvoll zu unterstützen. Besonders motiviert mich der Gedanke, digitale Lösungen zu entwickeln,
+                    die nicht zusätzlich belasten, sondern Abläufe vereinfachen, Orientierung geben und Menschen
+                    schneller zu passenden Entscheidungen führen. Dabei ist mir wichtig, dass Technik stets verantwortungsvoll,
+                    verständlich und mit Fokus auf den Menschen eingesetzt wird.
+                </p>
+            </article>
+
+            <article class="qa-card">
+                <h3>Was bringe ich mit?</h3>
+                <p>
+                    Ich bringe die Fähigkeit mit, Probleme kreativ, strukturiert und nah an den Bedürfnissen von Menschen
+                    zu betrachten. Dazu kommen breite Kenntnisse aus der Medieninformatik wie UX/UI-Design aus
+                    studienbezogener und privater Projektarbeit. Durch verschiedene Nebenjobs bringe ich außerdem Erfahrung
+                    in menschennahen Arbeitsumgebungen mit.
+                </p>
+            </article>
+
+            <article class="qa-card">
+                <h3>Was suche ich?</h3>
+                <p>
+                    Ich suche den Berufseinstieg in einem digitalen Umfeld, in dem ich meine Fähigkeiten praktisch einsetzen
+                    und weiterentwickeln kann. Ich möchte an Lösungen mitarbeiten, die für Unternehmen und Menschen einen
+                    echten Nutzen haben, weitere praktische Erfahrung sammeln und Schritt für Schritt mehr Verantwortung
+                    übernehmen. Langfristig reizt mich die Möglichkeit, Projekte oder Teams mitzugestalten und zu leiten.
+                </p>
+            </article>
+        </div>
+
+        <div class="qa-button-wrapper">
+        <a href="pdfs/Motivationsschreiben_BryanLemcke.pdf" target="_blank" class="button">Motivationsschreiben öffnen</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- Lebenslauf -->
+    <section id="cv" class="section cv-section">
+        <div class="section-intro">
+            <p class="section-kicker">Mein bisheriger Weg</p>
+            <h2>Lebenslauf</h2>
+            <p>
+                Eine kompakte Übersicht meiner bisherigen Ausbildung, praktischen Arbeitserfahrung
+                und den Fähigkeiten, die ich daraus mitbringe.
+            </p>
+        </div>
+
+        <div class="timeline-columns">
+    <div class="timeline-group">
+        <h3>Ausbildung</h3>
+
+        <article class="timeline-item">
+            <div class="timeline-date">2024 – 2026</div>
+            <div class="timeline-content">
+                <h4>M.Sc. Medieninformatik</h4>
+                <p>Universität zu Lübeck</p>
+                <span>Vertiefung von Themen der Medieninformatik mit Fokus auf Gestaltung, Konzeption
+                     und der verständlichen Vermittlung komplexer Inhalte im Bildungskontext</span>
+            </div>
+        </article>
+
+        <article class="timeline-item">
+            <div class="timeline-date">2018 – 2023</div>
+            <div class="timeline-content">
+                <h4>B.Sc. Medieninformatik</h4>
+                <p>Universität zu Lübeck</p>
+                <span>Grundlagen in Informatik, Gestaltung, Webtechnologien, Medienproduktion und interaktiven digitalen Anwendungen.</span>
+            </div>
+        </article>
+
+        <article class="timeline-item">
+            <div class="timeline-date">2018</div>
+            <div class="timeline-content">
+                <h4>Abitur</h4>
+                <p>Ernestinenschule zu Lübeck</p>
+                <span>Erwerb der allgemeinen Hochschulreife</span>
+            </div>
+        </article>
+    </div>
+
+    <div class="timeline-group">
+        <h3>Berufliche Erfahrung</h3>
+
+        <article class="timeline-item">
+            <div class="timeline-date">seit 2024</div>
+            <div class="timeline-content">
+                <h4>Serviceleihkraft</h4>
+                <p>PerLease GmbH</p>
+                <span>Diverse Tätigkeiten im gastronomischen Bereich mit direktem Gästekontakt und flexiblen Einsatzbereichen.</span>
+            </div>
+        </article>
+
+         <article class="timeline-item">
+            <div class="timeline-date"> 12/2025</div>
+            <div class="timeline-content">
+                <h4>Aushilfe im Verkauf</h4>
+                <p>Gewerbe Sarah Winzer</p>
+                <span>Verkauf von Waren, Kassiertätigkeiten, Warenpflege und ansprechende Präsentation des Sortiments auf dem Weihnachtsmarkt in Lübeck.</span>
+            </div>
+        </article>
+
+        <article class="timeline-item">
+            <div class="timeline-date">2020 – 2021</div>
+            <div class="timeline-content">
+                <h4>Werkstudent</h4>
+                <p>Lidl Vertriebs-GmbH & Co. KG</p>
+                <span> Kassiertätigkeiten, Kundenberatung und Verräumung von Waren </span>
+            </div>
+        </article>
+
+        <article class="timeline-item">
+            <div class="timeline-date">2014 – 2019</div>
+            <div class="timeline-content">
+                <h4>Bote</h4>
+                <p>Trave-Apotheke</p>
+                <span> Selbstständiges Austragen von Medikamenten, Kassiertätigkeiten und Planung effizienter Fahrtrouten. </span>
+            </div>
+        </article>
+    </div>
+</div>
+
+        <div class="skill-card-grid">
+            <article class="skill-card">
+                <h3>Technik</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>C# in Kombination mit Unity</li>
+                    <li>Grundlagen der Webentwicklung</li>
+                </ul>
+            </article>
+
+            <article class="skill-card">
+                <h3>Gestaltung & UX</h3>
+                <ul>
+                    <li>Figma</li>
+                    <li>Nutzerführung & Layout</li>
+                    <li>Konzeption digitaler Medien</li>
+                </ul>
+            </article>
+
+            <article class="skill-card">
+                <h3>Arbeitsweise</h3>
+                <ul>
+                    <li>Strukturiertes Denken</li>
+                    <li>Team- und Serviceerfahrung</li>
+                    <li>Blick für Verbesserungspotenzial und geeignete Lösungsmöglichkeiten</li>
+                </ul>
+            </article>
+
+            <article class="skill-card">
+                <h3>Sprachen</h3>
+                <ul>
+                    <li>Deutsch — Muttersprache</li>
+                    <li>Englisch — gut</li>
+                </ul>
+            </article>
+        </div>
+
+        <div class="cv-button-wrapper">
+            <a href="pdfs/Lebenslauf_BryanLemcke.pdf" target="_blank" class="button">Lebenslauf öffnen</a>
+        </div>
+    </section>
+
+    <!-- Qualifikationen -->
+    <section id="qualification" class="section qualification-section">
+        <div class="section-intro">
+            <p class="section-kicker">Dokumente</p>
+            <h2>Qualifikationen</h2>
+            <p>
+                Zeugnisse und Nachweise zu meinem schulischen, akademischen und beruflichen Werdegang.
+            </p>
+        </div>
+
+        <div class="document-columns">
+            <div class="document-group">
+                <h3>Ausbildung</h3>
+
+                <article class="document-card">
+                    <div>
+                        <h4>Abitur</h4>
+                        <p>Ernestinenschule zu Lübeck · 2018</p>
+                    </div>
+                    <a href="pdfs/Zeugnis_Abitur_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
+
+                <article class="document-card">
+                    <div>
+                        <h4>B.Sc. Medieninformatik</h4>
+                        <p>Universität zu Lübeck · 2023</p>
+                    </div>
+                    <a href="pdfs/Zeugnis_BachelorMDI_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
+
+                <article class="document-card">
+                    <div>
+                        <h4>M.Sc. Medieninformatik</h4>
+                        <p>Technische Hochschule Lübeck · 2026</p>
+                    </div>
+                    <a href="pdfs/Zeugnis_MasterMDI_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
+            </div>
+
+            <div class="document-group">
+                <h3>Berufliche Zeugnisse</h3>
+
+                <article class="document-card">
+                    <div>
+                        <h4>Arbeitszeugnis - Bote</h4>
+                        <p>Trave-Apotheke · 2019</p>
+                    </div>
+                    <a href="pdfs/Arbeitszeugnis_TraveApotheke_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
+
+                <article class="document-card">
+                    <div>
+                        <h4>Arbeitszeugnis - Werkstudent</h4>
+                        <p>Lidl Vertriebs-GmbH &amp; Co. KG · 2021</p>
+                    </div>
+                    <a href="pdfs/Arbeitszeugnis_Lidl_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
+
+                <article class="document-card">
+                    <div>
+                        <h4>Arbeitszeugnis - Aushilfe im Verkauf</h4>
+                        <p>Gewerbe Sarah Winzer · 2025</p>
+                    </div>
+                    <a href="pdfs/Arbeitszeugnis_Winzer_BryanLemcke.pdf" target="_blank" class="document-button">PDF öffnen</a>
+                </article>
             </div>
         </div>
     </section>
 
-    <!--Lebenslauf-->
-    <section id="cv" class="section">
-        <h2>Lebenslauf</h2>
-        <div class="cv-content">
-            <div class="cv-item">
-                <h3>Persönliche Daten</h3>
-                <p><strong>Name:</strong> Bryan Lemcke</p>
-                <p><strong>Geburtsdatum:</strong> 04.05.1999</p>
-                <p><strong>Wohnort:</strong> Lübeck</p>
-            </div>
-            <div class="cv-item">
-                <h3>Berufserfahrung</h3>
-                <p><strong>11/2020 - 10/2021:</strong> Werkstudent bei Lidl</p>
-                <p><strong>10/2014 - 08/2019:</strong> Bote bei Trave-Apotheke</p>
-            </div>
-            <div class="cv-item">
-                <h3>Ausbildung</h3>
-                <p><strong>10/2018 - 09/2023:</strong> B.Sc. Medieninformatik, Universität zu Lübeck</p>
-                <p><strong>2018:</strong> Abitur, Ernestinenschule zu Lübeck</p>
-            </div>
-            <div class="cv-item">
-                <h3>Kenntnisse</h3>
-                <div class="skills">
-                    <h4>Technische Fähigkeiten</h4>
-                    <ul>
-                        <li>HTML, CSS</li>
-                        <li>C#</li>
-                        <li>UX/UI Design mit Figma & Axure RP</li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <h4>Sprachen</h4>
-                    <ul>
-                        <li>Deutsch (Muttersprache)</li>
-                        <li>Englisch (gut)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <a href="pdfs/Lebenslauf_BryanLemcke.pdf" target="_blank" class="button">Lebenslauf herunterladen</a>
-    </section>   
-
-    <!--Qualifikationen-->
-    <section id="qualification" class="section">
-    <h2>Qualifikationen</h2>
-
-    <!-- Schulische Qualifikationen -->
-    <div class="qualifikation-box">
-        <h3>Schulische & Universitäre Abschlüsse</h3>
-        <div class="qualifikation-item">
-            <p><strong>Abitur</strong> – Ernestinenschule zu Lübeck (2018)</p>
-            <a href="pdfs/Zeugnis_Abitur_BryanLemcke.pdf" target="_blank" class="button">Zeugnis ansehen</a>
-        </div>
-        <div class="qualifikation-item">
-            <p><strong>B.Sc. Medieninformatik</strong> – Universität zu Lübeck (2023)</p>
-            <a href="pdfs/Zeugnis_BachelorMDI_BryanLemcke.pdf" target="_blank" class="button">Bachelor-Zeugnis ansehen</a>
-        </div>
-        <div class="qualifikation-item">
-            <p><strong>M.Sc. Medieninformatik Zwischenzeugnis</strong> – Universität zu Lübeck (Februar 2025)</p>
-            <a href="pdfs/Zwischenzeugnis_MasterMDI_BryanLemcke.pdf" target="_blank" class="button">Master-Zwischenzeugnis ansehen</a>
-        </div>
-    </div>
-
-    <!-- Berufliche Qualifikationen -->
-    <div class="qualifikation-box">
-        <h3>Berufliche Zeugnisse</h3>
-        <div class="qualifikation-item">
-            <p><strong>Arbeitszeugnis – Trave Apotheke</strong></p>
-            <a href="pdfs/Arbeitszeugnis_TraveApotheke_BryanLemcke.pdf" target="_blank" class="button">Zeugnis ansehen</a>
-        </div>
-        <div class="qualifikation-item">
-            <p><strong>Arbeitszeugnis – Lidl</strong></p>
-            <a href="pdfs/Arbeitszeugnis_Lidl_BryanLemcke.pdf" target="_blank" class="button">Zeugnis ansehen</a>
-        </div>
-    </div>
-</section>
-
     <!--Portfolio-->
-    <section id="portfolio" class="section">
-        <h2>Portfolio</h2>
-
-        <div class="qualifikation-box">
-            <div class="qualifikation-item">
-                <p><strong>Bachelorarbeit</strong></p>
-                <p1>In dieser Arbeit wurde eine für Bürgerservice-Webseiten integrierbare Web-Anwendung zu
-                    entwickeln, mit dessen Hilfe die Bürger ihre digitale Souveränität fördern können.  </p1> <br>
-                    <a href="pdfs/Bachelorarbeit_BryanLemcke.pdf" target="_blank" class="button">Bachelorarbeit ansehen</a>
-            </div>
-            <div class="qualifikation-item">
-                <p><strong>Projektarbeit Motion Design</strong></p>
-                <p1>Ein Projekt aus dem Master-Studium, in dem erste Arbeiten mit AfterEffects erstellt wurden.</p1> <br>
-                <a href="https://youtu.be/w-hkJZsu3II" target="_blank" class="button">
-                    <i class="fa-brands fa-youtube"></i> Video ansehen
-                </a>
-                <a href="https://github.com/1999Bryan/MotionDesign" target="_blank" class="button">
-                    <i class="fa-brands fa-github"></i> Projekt auf GitHub
-                </a>
-            </div>
-            <div class="qualifikation-item">
-                <p><strong>Projektarbeit Game Design</strong></p>
-                <p1>Ein Projekt aus dem Master-Studium, in dem ein Prototyp für ein eigenes Spiel erstellt wurde.</p1> <br>
-                <a href="https://youtu.be/d4TJ5y6W1xk" target="_blank" class="button">
-                    <i class="fa-brands fa-youtube"></i> Video ansehen
-                </a>
-                <a href="https://github.com/1999Bryan/GameDesign" target="_blank" class="button">
-                    <i class="fa-brands fa-github"></i> Projekt auf GitHub
-                </a>
-            </div>
+    <section id="portfolio" class="section portfolio-section">
+        <div class="section-intro">
+            <p class="section-kicker">Ausgewählte Arbeiten</p>
+            <h2>Portfolio</h2>
+            <p>
+                Eine Auswahl an Projekten aus meinem Studium, in denen ich mich mit digitalen Anwendungen,
+                Gestaltung, Serious Games, Motion Design und interaktiven Medien beschäftigt habe.
+            </p>
         </div>
-    </section>  
 
-    <footer>
+        <div class="portfolio-grid">
+            <article class="portfolio-card">
+                <div class="portfolio-card-content">
+                    <p class="portfolio-type">Bachelorarbeit</p>
+                    <h3>Web-Anwendung zur Förderung digitaler Souveränität</h3>
+                    <p>
+                        Im Rahmen meiner Bachelorarbeit entstand der Prototyp einer Web-Anwendung, die in Bürgerservice-Webseiten
+                        integriert werden kann. Ziel war es, Bürgerinnen und Bürger dabei zu unterstützen, digitale Souveränität
+                        im Kontext staatlicher Datenverarbeitung und sozialer Medien besser zu verstehen und zu stärken.
+                    </p>
+
+                    <div class="portfolio-tags">
+                        <span>Unity</span>
+                        <span>Digitale Souveränität</span>
+                        <span>Point & Click Spiel</span>
+                    </div>
+
+                    <div class="portfolio-actions">
+                        <a href="pdfs/BryanLemcke_Bachelorarbeit.pdf" target="_blank" class="portfolio-button">Bachelorarbeit lesen</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio-card">
+                <div class="portfolio-card-content">
+                    <p class="portfolio-type">Motion Design</p>
+                    <h3>Projektarbeit Motion Design</h3>
+                    <p>
+                        Ein Projekt aus dem Modul Motion Design Masterstudium, in dem ich erste Erfahrungen mit Animation,
+                        Bewegtbildgestaltung und der Arbeit mit After Effects gesammelt habe.
+                    </p>
+
+                    <div class="portfolio-tags">
+                        <span>After Effects</span>
+                        <span>Animation</span>
+                    </div>
+
+                    <div class="portfolio-actions">
+                        <a href="https://youtu.be/w-hkJZsu3II" target="_blank" class="portfolio-button">
+                            <i class="fa-brands fa-youtube"></i> Video ansehen
+                        </a>
+                        <a href="https://github.com/1999Bryan/MotionDesign" target="_blank" class="portfolio-button">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio-card">
+                <div class="portfolio-card-content">
+                    <p class="portfolio-type">Game Design</p>
+                    <h3>Projektarbeit Game Design</h3>
+                    <p>
+                        Ein Projekt des Moduls Game Design, in dem ein spielbarer Prototyp für ein eigenes Spielkonzept
+                        entstanden ist. Im Mittelpunkt standen Spielidee, Prototyping sowie die grundlegende Umsetzung von Gameplay,
+                        Animation und Sounddesign in Unity. Der Prototyp bildet außerdem die Grundlage für ein privates Spielprojekt,
+                        das ich in meiner Freizeit weiterverfolge.
+                    </p>
+
+                    <div class="portfolio-tags">
+                        <span>Unity</span>
+                        <span>Strategie-Rollenspiel</span>
+                    </div>
+
+                    <div class="portfolio-actions">
+                        <a href="https://youtu.be/d4TJ5y6W1xk" target="_blank" class="portfolio-button">
+                            <i class="fa-brands fa-youtube"></i> Video ansehen
+                        </a>
+                        <a href="https://github.com/1999Bryan/GameDesign" target="_blank" class="portfolio-button">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+             <article class="portfolio-card">
+                <div class="portfolio-card-content">
+                    <p class="portfolio-type">Masterarbeit</p>
+                    <h3>Digitale Nachhaltigkeit</h3>
+                    <p>
+                        Im Rahmen meiner Masterarbeit wurde ein bestehender Serious-Game-Prototyp weiterentwickelt und erstmals
+                        im Anwendungskontext getestet. Das Spiel ist als Aufbausimulation von Deutschland angelegt, in der verschiedene
+                        Klimaschutzmaßnahmen in relevanten Sektoren ausgebaut werden können. Ein besonderer Fokus liegt auf Transparenz:
+                        Spielerinnen und Spieler können konventionelle, innovative und digitale Maßnahmen frei kombinieren und benutzen. 
+                        Die Auswirkungen werden auf Basis realer Daten ausgewertet und mit den Klimazielen verglichen.
+                    </p>
+
+                    <div class="portfolio-tags">
+                        <span>Unity</span>
+                        <span>Digitalisierung</span>
+                        <span>Nachhaltigkeit</span>
+                        <span>Serious Games</span>
+                    </div>
+
+                    <div class="portfolio-actions">
+                        <a href="https://play.unity.com/en/games/6783e174-0e7f-4257-b0dd-5b5728faf713/unityplay" target="_blank" class="portfolio-button">
+                            <i class="fa-solid fa-gamepad"></i>Im Browser spielen
+                        </a>
+                        <a href="pdfs/BryanLemcke_Masterarbeit.pdf" target="_blank" class="portfolio-button">Masterarbeit lesen</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer id="contact">
         <div class="contact">
             <h1>Kontakt</h1>
             <div class="contact-info">
                 <div class="contact-item">
-                    <i class="fas fa-phone-alt"></i> <span>:  +49 160 2163882</span>
+                    <i class="fas fa-phone-alt"></i> <span>   +49 160 2163882</span>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-envelope"></i> <span>: BryanLemcke@web.de</span>
+                    <i class="fas fa-envelope"></i> <span>  BryanLemcke@web.de</span>
                 </div>
-                <div class="contact-item">
-                    <a href="https://github.com/1999Bryan" target="_blank" class="button">
+                <div class="contact-item contact-link">
+                    <a href="https://github.com/1999Bryan" target="_blank" class="footer-button">
                         <i class="fab fa-github"></i> GitHub
                     </a>
                 </div>
